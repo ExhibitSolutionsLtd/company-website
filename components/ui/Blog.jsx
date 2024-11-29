@@ -5,7 +5,7 @@ const BlogNews = () => {
   const blogs = [
     {
       id: 1,
-      image: "/assets/blogs/afytrail-launch.jpg",
+      image: "/assets/blogs/launch.jpg",
       title: "Launching RFID Solution (AfyaTrail).",
       description: `The successful launch of AfyaTrail (The first RFID solution in healthcare for the East African Region) represents a vision that has been close to our hearts—a vision of leveraging technology to solve real challenges faced by our clients in the healthcare sector.`,
       tags: ["RFID", "Product Launch"],

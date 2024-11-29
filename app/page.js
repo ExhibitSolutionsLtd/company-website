@@ -15,12 +15,11 @@ export default function Home() {
     <div className="">
       <Header />
       <Hero />
-      <Partners />
-      <hr className="w-full mt-4" />
       <About />
       <Services />
       <BlogNews />
       <AnotherCTA />
+      <Partners />
       <CTASection />
       <Team />
       <Contact />
