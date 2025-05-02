@@ -10,7 +10,7 @@ export async function POST(req) {
     port: 465,
     secure: true,
     auth: {
-      user: "moses.karani@exhibitsolutions.co.ke",
+      user: "admin@exhibitsolutions.co.ke",
       pass: process.env.EMAIL_PASSWORD,
     },
   });
