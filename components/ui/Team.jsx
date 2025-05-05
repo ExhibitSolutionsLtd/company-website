@@ -15,7 +15,7 @@ const Team = () => {
     {
       id: 2,
       name: "Daniel Sambu",
-      role: "Administrative Assistant",
+      role: "Operations Manager",
       image: "/assets/team/Daniel-Sambu.png",
       linkedin: "",
       instagram: "",
@@ -23,8 +23,8 @@ const Team = () => {
     },
     {
       id: 3,
-      name: "Jane Doe",
-      role: "Sales and Marketing Manager",
+      name: "Bridget Mueni",
+      role: "Administrative Assistant",
       image: "/assets/team/default.png",
       linkedin: "",
       instagram: "",
@@ -32,8 +32,8 @@ const Team = () => {
     },
     {
       id: 4,
-      name: "John Doe",
-      role: "Software Developer",
+      name: "Margaret Macharia",
+      role: "Sales and Marketing",
       image: "/assets/team/default.png",
       linkedin: "",
       instagram: "",
@@ -41,8 +41,8 @@ const Team = () => {
     },
     {
       id: 5,
-      name: "John Doe",
-      role: "Frontend Developer",
+      name: "Stanely Ayumba",
+      role: "Sales and Marketing",
       image: "/assets/team/default.png",
       linkedin: "",
       instagram: "",
@@ -50,13 +50,32 @@ const Team = () => {
     },
     {
       id: 6,
-      name: "John Doe",
+      name: "Ronnie Maganga ",
+      role: "Frontend Developer",
+      image: "/assets/team/default.png",
+      linkedin: "",
+      instagram: "",
+      twitter: "",
+    },
+    {
+      id: 7,
+      name: "Wilson Muchiri",
       role: "Software Engineer",
       image: "/assets/team/default.png",
       linkedin: "",
       instagram: "",
       twitter: "",
     },
+    {
+      id: 8,
+      name: "Patricia Chelang'at",
+      role: "Software Engineer",
+      image: "/assets/team/default.png",
+      linkedin: "",
+      instagram: "",
+      twitter: "",
+    },
+   
   ];
 
   return (

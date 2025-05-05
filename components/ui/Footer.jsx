@@ -160,7 +160,7 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="text-center text-sm text-white mt-12">
-        <p>© 2024. All Rights Reserved.</p>
+        <p>© 2025. All Rights Reserved.</p>
         <p className="mt-2">Exhibit IT solutions </p>
       </div>
     </footer>
