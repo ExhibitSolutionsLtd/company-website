@@ -34,7 +34,7 @@ const Team = () => {
       id: 4,
       name: "Margaret Macharia",
       role: "Sales and Marketing",
-      image: "/assets/team/default.png",
+      image: "/assets/team/maggie.jpeg",
       linkedin: "",
       instagram: "",
       twitter: "",
@@ -51,7 +51,7 @@ const Team = () => {
     {
       id: 6,
       name: "Ronnie Maganga ",
-      role: "Frontend Developer",
+      role: "Lead Software Engineer",
       image: "/assets/team/default.png",
       linkedin: "",
       instagram: "",
