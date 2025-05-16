@@ -4,17 +4,13 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#9bbfe0] to-primary text-white py-12">
+    <footer className="bg-gradient-to-b from-[#386c9c] to-primary text-white py-12">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="">
-          <Image
-            src="/full-logo.png"
-            width={200}
-            height={30}
-            alt="Exhibit IT Solutions logo"
-          />
+          <h4 className="text-white font-semibold mb-2 text-xl">Queries ?</h4>
           <p className="text-sm mt-2">
-            Questions? Reach us <br />
+            {" "}
+            Reach us <br />
             Monday – Saturday from 8 am to 5 pm
           </p>
           <div className="mt-1 flex  flex-col gap-y-3">
@@ -46,7 +42,7 @@ const Footer = () => {
 
         {/* Company Section */}
         <div>
-          <h4 className="text-white font-semibold mb-4">Company</h4>
+          <h4 className="text-white font-semibold mb-4 text-xl">Company</h4>
           <ul className="space-y-2 text-sm">
             <li>
               <a href="#" className="hover:text-white">
@@ -73,7 +69,7 @@ const Footer = () => {
 
         {/* Services Section */}
         <div>
-          <h4 className="text-white font-semibold mb-4">Services</h4>
+          <h4 className="text-white font-semibold mb-4 text-xl">Services</h4>
           <ul className="space-y-2 text-sm">
             <li>
               <a href="#" className="hover:text-white">
@@ -99,9 +95,20 @@ const Footer = () => {
         </div>
 
         {/* Connect Section */}
-        <div>
-          <h4 className="text-white font-semibold mb-4">Connect</h4>
-          <div className="flex space-x-4">
+        <div className="px-4 rounded-xl">
+          <h4 className="text-white font-semibold mb-1 text-xl">Connect</h4>
+
+          <div className="rounded-xl">
+            <div className="flex justify-center items-center">
+              <Image
+                src="/full-logo.png"
+                width={250}
+                height={30}
+                alt="Exhibit IT Solutions logo"
+              />
+            </div>
+          </div>
+          <div className="flex space-x-4 justify-center mt-4 bg-white/80 p-2 rounded-full">
             <a
               href="https://www.facebook.com/profile.php?id=100090401272340&mibextid=ZbWKwL"
               target="_blank"
@@ -159,9 +166,8 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="text-center text-sm text-white mt-12">
-        <p>© 2025. All Rights Reserved.</p>
-        <p className="mt-2">Exhibit IT solutions </p>
+      <div className="text-center text-sm text-white mt-12 flex items-center justify-center">
+        <p>© 2025. Exhibit IT solutions. All Rights Reserved.</p>
       </div>
     </footer>
   );

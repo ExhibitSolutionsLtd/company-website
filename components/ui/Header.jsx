@@ -16,13 +16,13 @@ const Header = ({
   };
 
   return (
-    <header className="flex justify-between items-center py-4 px-6 bg-white shadow-md">
+    <header className="flex justify-between items-center py-5 px-6 bg-white shadow-md h-[70px] ">
       {/* Logo */}
       <a href="/" className="">
         <Image
           src="/full-logo.png"
-          width={200}
-          height={50}
+          width={150}
+          height={20}
           alt="Exhibit IT Solutions logo"
         />
       </a>
@@ -31,17 +31,17 @@ const Header = ({
       <nav className="hidden md:flex space-x-12">
         <a
           href={home}
-          className="text-gray-700 font-semibold text-xl hover:text-primary"
+          className="text-gray-700 font-semibold text-lg hover:text-primary"
         >
           Home
         </a>
-        <a href={about} className="font-semibold text-xl text-primary">
+        <a href={about} className="font-semibold text-lg text-primary">
           About
         </a>
-        <a href={services} className="font-semibold text-xl text-primary">
+        <a href={services} className="font-semibold text-lg text-primary">
           Services
         </a>
-        <a href={contact} className="font-semibold text-xl text-primary">
+        <a href={contact} className="font-semibold text-lg text-primary">
           Contact
         </a>
       </nav>
