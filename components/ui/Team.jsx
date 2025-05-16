@@ -8,7 +8,7 @@ const Team = () => {
       name: "All Hussein",
       role: "Founder and CEO",
       image: "/assets/team/Ally.jpg",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ally-yassin-hussein-0292b7140/",
       instagram: "",
       twitter: "",
     },
@@ -17,7 +17,7 @@ const Team = () => {
       name: "Daniel Sambu",
       role: "Operations Manager",
       image: "/assets/team/Daniel-Sambu.png",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/daniel-sambu-1761a616b/",
       instagram: "",
       twitter: "",
     },
@@ -25,8 +25,9 @@ const Team = () => {
       id: 3,
       name: "Bridget Mueni",
       role: "Administrative Assistant",
-      image: "/assets/team/default.png",
-      linkedin: "",
+      image: "/assets/team/bridget.jpeg",
+      linkedin:
+        "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
       twitter: "",
     },
@@ -35,7 +36,8 @@ const Team = () => {
       name: "Margaret Macharia",
       role: "Sales and Marketing",
       image: "/assets/team/maggie.jpeg",
-      linkedin: "",
+      linkedin:
+        "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
       twitter: "",
     },
@@ -43,39 +45,33 @@ const Team = () => {
       id: 5,
       name: "Stanely Ayumba",
       role: "Sales and Marketing",
-      image: "/assets/team/default.png",
-      linkedin: "",
+      image: "/assets/team/stanely.jpeg",
+      linkedin:
+        "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
       twitter: "",
     },
+
     {
       id: 6,
-      name: "Ronnie Maganga ",
-      role: "Lead Software Engineer",
-      image: "/assets/team/default.png",
-      linkedin: "",
+      name: "Wilson Muchiri",
+      role: "Software Engineer",
+      image: "/assets/team/husband.jpeg",
+      linkedin:
+        "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
       twitter: "",
     },
     {
       id: 7,
-      name: "Wilson Muchiri",
-      role: "Software Engineer",
-      image: "/assets/team/default.png",
-      linkedin: "",
-      instagram: "",
-      twitter: "",
-    },
-    {
-      id: 8,
       name: "Patricia Chelang'at",
       role: "Software Engineer",
       image: "/assets/team/default.png",
-      linkedin: "",
+      linkedin:
+        "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
       twitter: "",
     },
-   
   ];
 
   return (
