@@ -66,7 +66,7 @@ const Team = () => {
       id: 7,
       name: "Patricia Chelang'at",
       role: "Software Engineer",
-      image: "/assets/team/default.png",
+      image: "/assets/team/patricia.jpeg",
       linkedin:
         "https://www.linkedin.com/company/exhibit-it-solutions-ltd/posts/?feedView=all",
       instagram: "",
