@@ -106,7 +106,7 @@ const BlogNews = () => {
     },
     {
       id: 4,
-      image: "/assets/blogs/ally_zebra3.jpeg",
+      image: "/assets/blogs/ally_S.A.jpeg",
       title: "🇿🇦 Zebra RPS: Accelerating Innovation in South Africa!",
       description: `Our CEO, Ally Hussein, had the distinct honor of attending the Zebra Partner Summit (RPS) in South Africa — an exclusive annual gathering of industry leaders and innovators. Centered around the theme *Accelerate*, the summit fostered dynamic conversations on emerging technologies, strategic partnerships, and transformative solutions. The experience was both inspiring and energizing, reinforcing our commitment to staying at the forefront of innovation and collaboration.`,
       tags: ["Zebra Technologies", "Events", "Innovation"],
@@ -126,13 +126,24 @@ const BlogNews = () => {
             className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
           >
             <div className="relative w-full h-52">
-              <Image
+              {/* <Image
                 src={blog.image}
                 alt={blog.title}
                 fill
                 sizes="auto"
                 className="object-cover"
-              />
+              /> */}
+              <div className="relative h-64 w-full">
+                {" "}
+                {/* Set your desired height here */}
+                <Image
+                  src={blog.image}
+                  alt={blog.title}
+                  fill
+                  sizes="auto"
+                  className="object-cover"
+                />
+              </div>
             </div>
             <div className="p-6">
               <div className="flex space-x-2 mb-4">
