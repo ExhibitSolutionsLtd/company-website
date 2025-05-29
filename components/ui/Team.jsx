@@ -5,7 +5,7 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "All Hussein",
+      name: "Ally Hussein",
       role: "Founder and CEO",
       image: "/assets/team/Ally.jpg",
       linkedin: "https://www.linkedin.com/in/ally-yassin-hussein-0292b7140/",
