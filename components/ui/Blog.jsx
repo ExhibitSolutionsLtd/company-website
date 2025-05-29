@@ -106,7 +106,7 @@ const BlogNews = () => {
     },
     {
       id: 4,
-      image: "/assets/blogs/ally_S.A.jpeg",
+      image: "/assets/blogs/ally_SA.jpeg",
       title: "🇿🇦 Zebra RPS: Accelerating Innovation in South Africa!",
       description: `Our CEO, Ally Hussein, had the distinct honor of attending the Zebra Partner Summit (RPS) in South Africa — an exclusive annual gathering of industry leaders and innovators. Centered around the theme *Accelerate*, the summit fostered dynamic conversations on emerging technologies, strategic partnerships, and transformative solutions. The experience was both inspiring and energizing, reinforcing our commitment to staying at the forefront of innovation and collaboration.`,
       tags: ["Zebra Technologies", "Events", "Innovation"],
