@@ -63,8 +63,7 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p>
-            If you have any concerns, reach out to us via the following
-            channels:
+            For more information, reach out to us via the following channels:
           </p>
           <div className="flex flex-col gap-y-6 mt-4">
             <p className="flex gap-x-2 items-center text-md text-gray-500">
